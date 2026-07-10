@@ -8,7 +8,7 @@ import { drawRect } from "../../../gfx/draw/drawRect";
 import { multTranslate, popTransform, pushTransform } from "../../../gfx/stack";
 import { rgb } from "../../../math/color";
 import { Circle, Polygon, Rect, shapeFactory, vec2 } from "../../../math/math";
-import { Vec2 } from "../../../math/Vec2";
+import { Vec2 } from "../../../math/vec2";
 import { _k } from "../../../shared";
 import type {
     Comp,

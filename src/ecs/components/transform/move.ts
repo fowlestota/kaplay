@@ -1,4 +1,4 @@
-import { type SerializedVec2, Vec2 } from "../../../math/Vec2";
+import { type SerializedVec2, Vec2 } from "../../../math/vec2";
 import type { Comp, EmptyComp, GameObj } from "../../../types";
 import type { PosComp } from "./pos";
 

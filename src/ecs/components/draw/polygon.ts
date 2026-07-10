@@ -6,7 +6,7 @@ import {
 import type { Texture } from "../../../gfx/gfx";
 import type { Color } from "../../../math/color";
 import { Polygon } from "../../../math/math";
-import { type Vec2 } from "../../../math/Vec2";
+import { type Vec2 } from "../../../math/vec2";
 import type { Comp, GameObj } from "../../../types";
 import { nextRenderAreaVersion } from "../physics/area";
 import type { FillComp } from "./fill";

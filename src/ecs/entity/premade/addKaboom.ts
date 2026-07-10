@@ -1,4 +1,4 @@
-import type { Vec2 } from "../../../math/Vec2";
+import type { Vec2 } from "../../../math/vec2";
 import { _k } from "../../../shared";
 import type { CompList, GameObj } from "../../../types";
 import { sprite } from "../../components/draw/sprite";

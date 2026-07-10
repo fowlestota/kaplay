@@ -6,7 +6,7 @@ import {
     type Vec2Args,
 } from "../../../math/math";
 import { calcTransform } from "../../../math/various";
-import { type Vec2 } from "../../../math/Vec2";
+import { type Vec2 } from "../../../math/vec2";
 import {
     type Comp,
     type CompList,

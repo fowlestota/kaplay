@@ -1,7 +1,10 @@
 import { deg2rad, rad2deg } from "./math";
-import { Vec2 } from "./Vec2";
+import { Vec2 } from "./vec2";
+import { Vec3 } from "./vec3";
 
 /**
+ * A 4x4 matrix.
+ * 
  * @group Math
  */
 export class Mat4 {
@@ -152,6 +155,14 @@ export class Mat4 {
         return this;
     }
 
+    translateVec3(p: Vec3) {
+        this.m[12] += this.m[0] * p.x + this.m[4] * p.y + this.m[8] * p.z;
+        this.m[13] += this.m[1] * p.x + this.m[5] * p.y + this.m[9] * p.z;
+        this.m[14] += this.m[2] * p.x + this.m[6] * p.y + this.m[10] * p.z;
+        this.m[15] += this.m[3] * p.x + this.m[7] * p.y + this.m[11] * p.z;
+        return this;
+    }
+
     scale(p: Vec2) {
         this.m[0] *= p.x;
         this.m[4] *= p.y;
@@ -247,7 +258,7 @@ export class Mat4 {
             const r = Math.sqrt(this.m[0] * this.m[0] + this.m[1] * this.m[1]);
             return new Vec2(
                 Math.atan(this.m[0] * this.m[4] + this.m[1] * this.m[5])
-                    / (r * r),
+                / (r * r),
                 0,
             );
         }
@@ -256,7 +267,7 @@ export class Mat4 {
             return new Vec2(
                 0,
                 Math.atan(this.m[0] * this.m[4] + this.m[1] * this.m[5])
-                    / (s * s),
+                / (s * s),
             );
         }
         else {
@@ -319,6 +330,19 @@ export class Mat4 {
         }
 
         return new Mat4(out);
+    }
+
+    static perspective(fov: number, aspect: number, near: number = 0.1, far: number = 100): Mat4 {
+        const fovRad = fov * Math.PI / 180.0;
+        const f = 1.0 / Math.tan(fovRad * 0.5);
+        const nf = 1.0 / (near - far);
+
+        return new Mat4([
+            f / aspect, 0, 0, 0,
+            0, f, 0, 0,
+            0, 0, (far + near) * nf, -1,
+            0, 0, (2 * far * near) * nf, 0,
+        ]);
     }
 
     clone(): Mat4 {

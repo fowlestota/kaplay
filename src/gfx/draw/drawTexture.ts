@@ -1,7 +1,7 @@
 import { DEF_ANCHOR } from "../../constants/general";
 import { Color } from "../../math/color";
 import { Quad } from "../../math/math";
-import { Vec2 } from "../../math/Vec2";
+import { Vec2 } from "../../math/vec2";
 import { type Anchor, BlendMode, type RenderProps } from "../../types";
 import { anchorPt } from "../anchor";
 import type { Texture } from "../gfx";

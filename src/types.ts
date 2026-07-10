@@ -15,7 +15,7 @@ import type { FrameBuffer } from "./gfx/FrameBuffer";
 import type { Color, RGBAValue, RGBValue } from "./math/color";
 import type { Circle, Ellipse, Line, Point, Polygon, Rect } from "./math/math";
 import type { RNGConfig } from "./math/random";
-import type { Vec2 } from "./math/Vec2";
+import type { Vec2 } from "./math/vec2";
 import type { Defined, MergeObj } from "./utils/types";
 
 export type Tag = string;

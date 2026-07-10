@@ -1,5 +1,5 @@
 import { Polygon, vec2 } from "../../../math/math";
-import { Vec2 } from "../../../math/Vec2";
+import { Vec2 } from "../../../math/vec2";
 import type { Comp, GameObj } from "../../../types";
 import type { PosComp } from "../transform/pos";
 import type { AreaComp } from "./area";

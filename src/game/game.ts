@@ -17,7 +17,7 @@ import type { GameEventMap, GameObjEventMap } from "../events/eventMap";
 import { type KEventController, KEventHandler } from "../events/events";
 import { Mat23, Rect } from "../math/math";
 import { RNG, type RNGConfig } from "../math/random";
-import { Vec2 } from "../math/Vec2";
+import { Vec2 } from "../math/vec2";
 import type { GameObj } from "../types";
 import type { SceneDef, SceneState } from "./scenes";
 

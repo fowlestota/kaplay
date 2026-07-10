@@ -1,4 +1,4 @@
-import { Vec2 } from "../math/Vec2";
+import { Vec2 } from "../math/vec2";
 import { _k } from "../shared";
 
 /*

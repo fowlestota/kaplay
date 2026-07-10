@@ -1,6 +1,6 @@
 import { drawImageSourceAt } from "../assets/utils";
 import { Quad, Rect, testRectRect } from "../math/math";
-import { Vec2 } from "../math/Vec2";
+import { Vec2 } from "../math/vec2";
 import type { ImageSource, TexFilter } from "../types";
 import { type GfxCtx, Texture } from "./gfx";
 

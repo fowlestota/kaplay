@@ -1,5 +1,5 @@
 import { deg2rad, vec2 } from "./math";
-import type { Vec2 } from "./Vec2";
+import type { Vec2 } from "./vec2";
 
 export function createRegularPolygon(
     radius: number,

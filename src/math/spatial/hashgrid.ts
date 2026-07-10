@@ -14,7 +14,7 @@ import { loadIdentity, pushMatrix } from "../../gfx/stack";
 import type { GameObj } from "../../types";
 import { type Rect, vec2 } from "../math";
 import { calcTransform } from "../various";
-import type { Vec2 } from "../Vec2";
+import type { Vec2 } from "../vec2";
 
 export type HashGridOpt = {
     hashGridSize?: number;

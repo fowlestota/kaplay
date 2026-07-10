@@ -21,7 +21,7 @@ import type {
 import { type KEventController, KEventHandler } from "../events/events";
 import { canvasToViewport } from "../gfx/viewport";
 import { map, vec2 } from "../math/math";
-import { Vec2 } from "../math/Vec2";
+import { Vec2 } from "../math/vec2";
 import { _k } from "../shared";
 import { deprecateMsg } from "../utils/log";
 import { overload2 } from "../utils/overload";

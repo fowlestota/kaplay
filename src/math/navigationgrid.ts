@@ -1,6 +1,6 @@
 import { vec2 } from "./math";
 import { aStarSearch, buildConnectivityMap, type Graph } from "./navigation";
-import { Vec2 } from "./Vec2";
+import { Vec2 } from "./vec2";
 
 /**
  * A navigation grid is a graph consisting of connected grid cells

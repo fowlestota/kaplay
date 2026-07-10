@@ -12,7 +12,7 @@ import { exists, isPaused } from "../../ecs/entity/utils";
 import type { GameObj } from "../../types";
 import { Rect, vec2 } from "../math";
 import { calcTransform } from "../various";
-import type { Vec2 } from "../Vec2";
+import type { Vec2 } from "../vec2";
 import type { BroadPhaseAlgorithm } from ".";
 
 /**

@@ -1,5 +1,5 @@
 import { Color } from "./color";
-import { Vec2 } from "./Vec2";
+import { Vec2 } from "./vec2";
 
 /**
  * A valid value for lerp.

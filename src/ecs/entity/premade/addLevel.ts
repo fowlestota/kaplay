@@ -1,5 +1,5 @@
 import { vec2 } from "../../../math/math";
-import type { Vec2 } from "../../../math/Vec2";
+import type { Vec2 } from "../../../math/vec2";
 import { _k } from "../../../shared";
 import type { GameObj } from "../../../types";
 import {

@@ -1,5 +1,5 @@
 import { clampAngle } from "./various";
-import { Vec2 } from "./Vec2";
+import { Vec2 } from "./vec2";
 
 export function lerpAngle<V extends number | Vec2>(a: V, b: V, t: number): V {
     if (

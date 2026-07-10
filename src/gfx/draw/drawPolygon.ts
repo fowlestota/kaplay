@@ -1,6 +1,6 @@
 import { Color } from "../../math/color";
 import { triangulate } from "../../math/math";
-import { Vec2 } from "../../math/Vec2";
+import { Vec2 } from "../../math/vec2";
 import { _k } from "../../shared";
 import { BlendMode, type RenderProps } from "../../types";
 import type { Texture } from "../gfx";

@@ -1,5 +1,5 @@
 import { vec2, type Vec2Args } from "../../../math/math";
-import { type SerializedVec2, Vec2 } from "../../../math/Vec2";
+import { type SerializedVec2, Vec2 } from "../../../math/vec2";
 import type { Comp } from "../../../types";
 import {
     type InternalGameObjRaw,

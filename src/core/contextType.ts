@@ -147,7 +147,7 @@ import type { Color, CSSColorKeywords } from "../math/color";
 import type { EaseFunc, EaseFuncs } from "../math/easings";
 import type { GjkCollisionResult } from "../math/gjk";
 import type { LerpValue } from "../math/lerp";
-import type { Mat4 } from "../math/Mat4";
+import type { Mat4 } from "../math/mat4";
 import type {
     Circle,
     Ellipse,
@@ -166,7 +166,8 @@ import type { NavGrid } from "../math/navigationgrid";
 import type { NavMesh } from "../math/navigationmesh";
 import type { RandomGenerator, RNG, RNGConfig, RNGSeed } from "../math/random";
 import type { Quadtree, ResizingQuadtree } from "../math/spatial/quadtree";
-import type { Vec2 } from "../math/Vec2";
+import type { Vec2 } from "../math/vec2";
+import type { Vec3 } from "../math/vec3";
 import {
     type Anchor,
     type BlendMode,
@@ -6528,6 +6529,14 @@ export interface KAPLAYCtx {
     Vec2: typeof Vec2;
     /**
      * A color.
+    *
+    * @since v2000.0
+    * @group Math
+    * @subgroup Vectors
+    */
+    Vec3: typeof Vec3;
+    /**
+     * A 3D vector.
      *
      * @since v2000.0
      * @group Math

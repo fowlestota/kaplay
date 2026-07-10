@@ -4,7 +4,7 @@ import {
 } from "../../ecs/entity/GameObjRaw";
 import { lerp } from "../../math/lerp";
 import { rand } from "../../math/random";
-import { Vec2 } from "../../math/Vec2";
+import { Vec2 } from "../../math/vec2";
 import { _k } from "../../shared";
 import { center, flush } from "../stack";
 

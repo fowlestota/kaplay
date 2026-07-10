@@ -1,6 +1,6 @@
 import type { Shape } from "../types";
 import { Polygon, vec2 } from "./math";
-import { Vec2 } from "./Vec2";
+import { Vec2 } from "./vec2";
 
 export type SatResult = {
     normal: Vec2;

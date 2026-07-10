@@ -1,6 +1,6 @@
 import { anchorPt } from "../../../gfx/anchor";
 import { vec2 } from "../../../math/math";
-import { type SerializedVec2, Vec2 } from "../../../math/Vec2";
+import { type SerializedVec2, Vec2 } from "../../../math/vec2";
 import type { Anchor, Comp } from "../../../types";
 
 /**

@@ -1,4 +1,4 @@
-import type { Vec2 } from "./Vec2";
+import type { Vec2 } from "./vec2";
 
 /**
  * > 0 if counter clockwise

@@ -18,7 +18,7 @@ import {
     updateChildrenTransformRecursive,
     updateTransformRecursive,
 } from "../../../math/various";
-import { Vec2 } from "../../../math/Vec2";
+import { Vec2 } from "../../../math/vec2";
 import { _k } from "../../../shared";
 import type { Comp, GameObj } from "../../../types";
 import { system, SystemPhase } from "../../systems/systems";

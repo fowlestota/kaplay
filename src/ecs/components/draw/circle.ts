@@ -1,7 +1,7 @@
 import { getRenderProps } from "../../../game/utils";
 import { drawCircle } from "../../../gfx/draw/drawCircle";
 import { Circle, Rect } from "../../../math/math";
-import { Vec2 } from "../../../math/Vec2";
+import { Vec2 } from "../../../math/vec2";
 import type { Comp, GameObj } from "../../../types";
 import { nextRenderAreaVersion } from "../physics/area";
 import type { AnchorComp } from "../transform/anchor";

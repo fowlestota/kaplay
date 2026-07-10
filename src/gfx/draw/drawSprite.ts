@@ -1,7 +1,7 @@
 import type { Asset } from "../../assets/asset";
 import { resolveSprite, type SpriteData } from "../../assets/sprite";
 import { Quad, vec2 } from "../../math/math";
-import { type Vec2 } from "../../math/Vec2";
+import { type Vec2 } from "../../math/vec2";
 import type { Anchor, RenderProps } from "../../types";
 import type { Texture } from "../gfx";
 import { drawTexture } from "./drawTexture";

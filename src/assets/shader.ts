@@ -7,9 +7,9 @@ import {
 } from "../constants/general";
 import { type GfxCtx, Texture } from "../gfx/gfx";
 import { Color } from "../math/color";
-import { Mat4 } from "../math/Mat4";
+import { Mat4 } from "../math/mat4";
 import { Mat23 } from "../math/math";
-import { Vec2 } from "../math/Vec2";
+import { Vec2 } from "../math/vec2";
 import { _k } from "../shared";
 import type { RenderProps } from "../types";
 import { arrayIsColor, arrayIsNumber, arrayIsVec2 } from "../utils/asserts";

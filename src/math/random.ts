@@ -5,7 +5,7 @@ import { vec2 } from "./math";
 import { Alea } from "./rngAlea";
 import { LinearCongruentialEngine } from "./rngLce";
 import { XorShift32 } from "./rngXorShift32";
-import { Vec2 } from "./Vec2";
+import { Vec2 } from "./vec2";
 
 export interface RandomGenerator {
     /**

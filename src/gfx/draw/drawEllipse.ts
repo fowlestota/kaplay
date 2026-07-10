@@ -1,6 +1,6 @@
 import type { Color } from "../../math/color";
 import { getArcPts } from "../../math/various";
-import { Vec2 } from "../../math/Vec2";
+import { Vec2 } from "../../math/vec2";
 import type { Anchor, RenderProps } from "../../types";
 import { anchorPt } from "../anchor";
 import { drawPolygon } from "./drawPolygon";

@@ -1,5 +1,5 @@
 import { Color } from "../math/color";
-import { Vec2 } from "../math/Vec2";
+import { Vec2 } from "../math/vec2";
 
 export function arrayIsColor(arr: unknown[]): arr is Color[] {
     return arr[0] instanceof Color;

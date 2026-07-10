@@ -1,6 +1,6 @@
 import type { Shape } from "../types";
 import { Rect, vec2 } from "./math";
-import { Vec2 } from "./Vec2";
+import { Vec2 } from "./vec2";
 
 function minkowskiRectDifference(r1: Rect, r2: Rect): Rect {
     return new Rect(

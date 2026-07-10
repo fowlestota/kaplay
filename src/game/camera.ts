@@ -6,7 +6,7 @@ import { destroy } from "../ecs/entity/utils";
 import { center, height, width } from "../gfx/stack";
 import { type Color, rgb } from "../math/color";
 import { type Mat23, vec2, type Vec2Args } from "../math/math";
-import { Vec2 } from "../math/Vec2";
+import { Vec2 } from "../math/vec2";
 import { _k } from "../shared";
 import { deprecateMsg } from "../utils/log";
 

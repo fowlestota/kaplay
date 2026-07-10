@@ -1,5 +1,5 @@
 import { BinaryHeap } from "../utils/binaryheap";
-import { Vec2 } from "./Vec2";
+import { Vec2 } from "./vec2";
 
 export interface Graph {
     /* Returns the reachable neighbors of this location */

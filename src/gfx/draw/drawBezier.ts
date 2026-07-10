@@ -1,5 +1,5 @@
 import { evaluateBezier } from "../../math/math";
-import { type Vec2 } from "../../math/Vec2";
+import { type Vec2 } from "../../math/vec2";
 import { drawCurve, type DrawCurveOpt } from "./drawCurve";
 
 /**

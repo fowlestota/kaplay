@@ -8,7 +8,7 @@ import {
 } from "../constants/general";
 import { type Color, rgb } from "../math/color";
 import { Mat23 } from "../math/math";
-import { Vec2 } from "../math/Vec2";
+import { Vec2 } from "../math/vec2";
 import type { MustKAPLAYOpt } from "../types";
 import type { FontAtlas } from "./formatText";
 import { FrameBuffer } from "./FrameBuffer";

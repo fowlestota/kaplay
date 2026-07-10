@@ -1,6 +1,6 @@
 import { vec2 } from "./math";
 import { aStarSearch, type Graph } from "./navigation";
-import { Vec2 } from "./Vec2";
+import { Vec2 } from "./vec2";
 
 class NavEdge {
     a: Vec2;

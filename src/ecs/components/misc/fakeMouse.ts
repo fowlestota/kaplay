@@ -1,4 +1,4 @@
-import type { Vec2 } from "../../../math/Vec2";
+import type { Vec2 } from "../../../math/vec2";
 import { _k } from "../../../shared";
 import type { Comp, GameObj } from "../../../types";
 import type { PosComp } from "../transform/pos";

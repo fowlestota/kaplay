@@ -7,7 +7,8 @@ import { clamp } from "./clamp";
 import { traceRegion } from "./getImageOutline";
 import { lerp, type LerpValue } from "./lerp";
 import { rand, RNG } from "./random";
-import { Vec2 } from "./Vec2";
+import { Vec2 } from "./vec2";
+import { Vec3 } from "./vec3";
 
 /**
  * Possible arguments for a Vec2.
@@ -70,6 +71,10 @@ export function vec2(...args: Vec2Args): Vec2 {
     }
     // @ts-ignore
     return new Vec2(...args);
+}
+
+export function vec3(x: number, y: number, z: number): Vec3 {
+    return new Vec3(x, y, z);
 }
 
 /**

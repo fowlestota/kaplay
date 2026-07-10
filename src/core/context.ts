@@ -165,7 +165,7 @@ import { easings } from "../math/easings";
 import { gjkShapeIntersection, gjkShapeIntersects } from "../math/gjk";
 import { lerp } from "../math/lerp";
 import { lerpAngle } from "../math/lerpAngle";
-import { Mat4 } from "../math/Mat4";
+import { Mat4 } from "../math/mat4";
 import {
     bezier,
     cardinal,
@@ -221,6 +221,7 @@ import {
     testRectRect,
     triangulate,
     vec2,
+    vec3,
     wave,
 } from "../math/math";
 import { buildConnectivityMap, floodFill } from "../math/navigation";
@@ -234,7 +235,8 @@ import {
 import { chance, rand, randi, randSeed, RNG, setRNG } from "../math/random";
 import { insertionSort } from "../math/sort";
 import { makeQuadtree, Quadtree } from "../math/spatial/quadtree";
-import { Vec2 } from "../math/Vec2";
+import { Vec2 } from "../math/vec2";
+import { Vec3 } from "../math/vec3";
 import { BlendMode, type KAPLAYPlugin } from "../types";
 import {
     download,
@@ -512,6 +514,7 @@ export const createContext = (
         Polygon,
         Collision,
         Vec2,
+        Vec3,
         Color,
         Mat2,
         Mat4,

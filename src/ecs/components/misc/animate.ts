@@ -4,7 +4,7 @@ import { Color } from "../../../math/color";
 import { type EaseFunc, easings } from "../../../math/easings";
 import { lerp, type LerpValue } from "../../../math/lerp";
 import { catmullRom, hermiteFirstDerivative, vec2 } from "../../../math/math";
-import { Vec2 } from "../../../math/Vec2";
+import { Vec2 } from "../../../math/vec2";
 import { _k } from "../../../shared";
 import type { Comp, GameObj } from "../../../types";
 import type { NamedComp } from "./named";

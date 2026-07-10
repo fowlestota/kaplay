@@ -13,7 +13,7 @@ import { anchorPt } from "../../../gfx/anchor";
 import { drawTexture } from "../../../gfx/draw/drawTexture";
 import type { Texture } from "../../../gfx/gfx";
 import { Quad, quad, Rect, vec2 } from "../../../math/math";
-import { type Vec2 } from "../../../math/Vec2";
+import { type Vec2 } from "../../../math/vec2";
 import { _k } from "../../../shared";
 import type { Comp, GameObj, SpriteAnimPlayOpt } from "../../../types";
 import { warn } from "../../../utils/log";

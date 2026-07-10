@@ -7,7 +7,7 @@ import { drawUVQuad } from "../gfx/draw/drawUVQuad";
 import type { AppGfxCtx } from "../gfx/gfxApp";
 import { flush, height, width } from "../gfx/stack";
 import { Quad } from "../math/math";
-import { Vec2 } from "../math/Vec2";
+import { Vec2 } from "../math/vec2";
 
 /**
  * A frame renderer.

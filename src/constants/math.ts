@@ -1,5 +1,5 @@
-import { Mat4 } from "../math/Mat4";
-import { Vec2 } from "../math/Vec2";
+import { Mat4 } from "../math/mat4";
+import { Vec2 } from "../math/vec2";
 
 export const IDENTITY_MATRIX = new Mat4();
 export const TOP_LEFT = new Vec2(-1, -1);

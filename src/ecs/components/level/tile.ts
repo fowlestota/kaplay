@@ -1,5 +1,5 @@
 import { vec2 } from "../../../math/math";
-import { Vec2 } from "../../../math/Vec2";
+import { Vec2 } from "../../../math/vec2";
 import { type Comp, type Edge, EdgeMask, type GameObj } from "../../../types";
 import type { LevelComp } from "./level";
 

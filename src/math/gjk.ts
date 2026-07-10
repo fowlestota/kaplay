@@ -1,7 +1,7 @@
 import { MAX_TRIES } from "../constants/general";
 import type { Shape } from "../types";
 import { Circle, Ellipse, Polygon, Rect, vec2 } from "./math";
-import { Vec2 } from "./Vec2";
+import { Vec2 } from "./vec2";
 
 function calculateSupport(
     shapeA: Shape,
